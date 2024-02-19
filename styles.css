@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1200px;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.nav-logo img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+nav {
+    background-color: white;
+    box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.75);
+    position: sticky;
+    top: 0;
+}
+.fa-solid {
+    font-size: 32px;
+}
