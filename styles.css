@@ -118,3 +118,53 @@ button:hover {
     transition: 0.3s ease-in-out;
     box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.75);
 }
+.devider {
+    border: solid 1px black;
+    margin: 20px 0;
+}
+
+.tag {
+    text-align: center;
+    font-size: 26px;
+    margin-top: 30px;
+}
+.explore {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+         /* FOOD GRID CONTAINER  */
+.foods img {
+    width: 250px;
+    height: 250px;
+    border-radius: 12px;
+    box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.75);
+}
+
+.grid {
+    margin-top: 50px;
+    height: 800px;
+    width: 800px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1px;
+}
+.foods {
+    display: flex;
+    flex-direction: row;
+    transition: all 0.3s ease-in-out;
+}
+.foods:hover {
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
+   
+}
+.grid-container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
